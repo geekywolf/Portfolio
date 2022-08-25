@@ -180,15 +180,8 @@ footer a {
   height: fit-content;
 }
 
-.about .aboutimg img {
-  width: 60%;
-  margin-top: 1.4em;
-  display: block;
-  margin: 0 auto;
-  border-radius: 50%;
-}
-
 .about .side h1 {
+  text-align: center;
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 600;
   font-size: 1.6em;
@@ -317,10 +310,31 @@ footer a {
     height: 13em;
   }
   .whatido .whatido-cards .card {
-    width: 38vw;
+    width: 35%;
   }
-  .about img {
-    width: 45%;
+  .whatido .whatido-cards .card img {
+    margin-top: 1em;
+    width: 5em;
+  }
+  .whatido .whatido-cards .card h1 {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-top: -.8em;
+  }
+  .whatido .whatido-cards .card p {
+    padding: 10px .8em;
+    margin: -.8em auto 2em;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+    width: 80%;
+  }
+  .about .side {
+    width: 80%;
+    margin: auto;
   }
   .about .side p {
     line-height: 2em;

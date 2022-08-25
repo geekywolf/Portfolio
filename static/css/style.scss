@@ -152,17 +152,19 @@ footer{
     margin-bottom: 3em;
     gap: .7em;
     height: fit-content;
-    .aboutimg{
-        img{
-            width: 60%;
-            margin-top: 1.4em;
-            display: block;
-            margin: 0 auto;
-            border-radius: 50%;
-        }
-    }
+    // .aboutimg{
+    //     img{
+    //         display: none;
+    //         width: 60%;
+    //         margin-top: 1.4em;
+    //         display: block;
+    //         margin: 0 auto;
+    //         border-radius: 50%;
+    //     }
+    // }
     .side{
         h1{
+            text-align: center;
             font-family: 'Roboto', Arial, sans-serif;
             font-weight: 600;
             font-size: 1.6em;
@@ -292,16 +294,46 @@ footer{
     .whatido{
         .whatido-cards{
             .card{
-                width: 38vw;
+                width: 35%;
+                img{
+                    margin-top: 1em;
+                    width: 5em;
+                }
+                h1{
+                    font-family: 'Roboto', Arial, sans-serif;
+                    font-weight: 600;
+                    font-size: 1.5em;
+                    margin-top: -.8em;
+                }
+                p{
+                    padding: 10px .8em;
+                    margin: -.8em auto 2em;
+                    font-family: 'Poppins', Arial, sans-serif;
+                    font-weight: 500;
+                    font-size: 1em;
+                    line-height: 1.5em;
+                    text-align: justify;
+                    width: 80%;
+                }
             }
         }
     }
 
     .about{
-        img{
-            width: 45%;
-        }
+        // gap: 1em;
+        // .aboutimg{
+        //     width: 50%;
+        //     img{
+        //         display: none;
+        //         width: 40vw;
+        //         height: 45vh;
+        //         margin-top: 1.4em;
+        //         border-radius: 50%;
+        //     }
+        // }
         .side{
+            width: 80%;
+            margin: auto;
             p{
                 line-height: 2em;
                 text-align: justify;
