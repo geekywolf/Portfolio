@@ -33,7 +33,7 @@ footer a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 1.8em;
+  gap: .8em;
   width: 100%;
   margin: auto;
 }
