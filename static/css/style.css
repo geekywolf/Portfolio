@@ -133,6 +133,7 @@ footer a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 0 1em;
 }
 
 .whatido .whatido-cards .card {
@@ -255,7 +256,7 @@ footer a {
       -ms-flex-pack: center;
           justify-content: center;
   margin: .5em 0 0;
-  width: 70vw;
+  width: 80vw;
   height: 2em;
   border: 0.1em solid #272727;
   border-radius: 0.1em;
@@ -274,7 +275,7 @@ footer a {
   background-color: #FEDA4E;
   border: none;
   color: #202020;
-  width: 72vw;
+  width: 82vw;
   height: 2em;
   border-radius: 0.4em;
   font-weight: bold;
