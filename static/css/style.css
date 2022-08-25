@@ -15,11 +15,12 @@ a:hover {
 }
 
 footer {
+  padding: 0 1em;
   text-align: center;
   text-transform: capitalize;
   font-family: 'Asap', Arial, sans-serif;
   font-weight: 400;
-  font-size: .8em;
+  font-size: .7em;
 }
 
 footer a {
@@ -50,6 +51,8 @@ footer a {
 .home .nav {
   font-family: 'Asap', Arial, sans-serif;
   font-weight: 400;
+  margin-left: -1em;
+  margin-right: 1em;
 }
 
 .home .nav ul {
@@ -65,13 +68,13 @@ footer a {
 
 .home .nav ul li {
   list-style: none;
-  margin-top: 1.5em;
+  margin-top: 1.8em;
   padding: 0em .6em;
   font-size: .7em;
 }
 
 .home .socials {
-  margin: 1.6em 0 0;
+  margin: 1.8em 0 0;
 }
 
 .home .socials img {
@@ -83,12 +86,12 @@ footer a {
 
 .introduction {
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 .introduction img {
-  width: 35%;
-  height: 10.5em;
+  width: 40%;
+  height: 10em;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 35% 0%;
@@ -135,20 +138,21 @@ footer a {
 .whatido .whatido-cards .card {
   color: #202020;
   background-color: #FEDA4E;
-  margin: .5em 1em 2.5em;
+  margin: .5em .8em 2.5em;
   width: 45vw;
   border-radius: 1em;
+  text-align: center;
 }
 
 .whatido .whatido-cards .card img {
-  margin-top: 2em;
+  margin-top: 1em;
   width: 4em;
 }
 
 .whatido .whatido-cards .card h1 {
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 1em;
   margin-top: -.8em;
 }
 
@@ -157,15 +161,14 @@ footer a {
   margin: -.8em auto 2em;
   font-family: 'Poppins', Arial, sans-serif;
   font-weight: 500;
-  font-size: .8em;
-  text-align: center;
+  font-size: .65em;
+  line-height: 15px;
+  text-align: justify;
   width: 80%;
 }
 
 .about {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -177,9 +180,12 @@ footer a {
   height: fit-content;
 }
 
-.about img {
-  width: 50%;
+.about .aboutimg img {
+  width: 60%;
   margin-top: 1.4em;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
 }
 
 .about .side h1 {
@@ -205,6 +211,9 @@ footer a {
 }
 
 .about .side .stack img {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin: -.2em .2em .5em;
   width: 1.7em;
   -webkit-filter: brightness(0) invert(1);
@@ -213,6 +222,7 @@ footer a {
 
 .about .side button {
   background-color: #FEDA4E;
+  width: 11em;
   border: none;
   border-radius: .5em;
   padding: .6em;
