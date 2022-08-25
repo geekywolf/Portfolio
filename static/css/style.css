@@ -14,6 +14,11 @@ a:hover {
   color: #FEDA4E;
 }
 
+a:active {
+  color: #FEDA4E;
+  border-bottom: 2px solid #f3dc48d8;
+}
+
 footer {
   padding: 0 1em;
   text-align: center;
@@ -59,11 +64,6 @@ footer a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.home .nav ul .active {
-  color: #FEDA4E;
-  border-bottom: 2px solid #f3dc48d8;
 }
 
 .home .nav ul li {
@@ -193,7 +193,7 @@ footer a {
 .about .side h1::before {
   content: " ";
   position: absolute;
-  width: 15%;
+  width: 16%;
   bottom: -2px;
   border-bottom: 2px solid #FEDA4E;
 }

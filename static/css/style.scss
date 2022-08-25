@@ -19,6 +19,10 @@ a{
 a:hover{
     color: $yellow;
 }
+a:active{
+    color: $yellow;
+    border-bottom: 2px solid $yellow-accent;
+}
 
 footer{
     padding: 0 1em;
@@ -54,10 +58,6 @@ footer{
         margin-right: 1em;
         ul{
             display: flex;
-            .active{
-                color: $yellow;
-                border-bottom: 2px solid $yellow-accent;
-            }
             li{
                 list-style: none;
                 margin-top: 1.8em;
@@ -175,7 +175,7 @@ footer{
         h1::before{
             content: " ";
             position: absolute;
-            width: 15%;
+            width: 16%;
             bottom: -2px;
             border-bottom: 2px solid $yellow;
         }
