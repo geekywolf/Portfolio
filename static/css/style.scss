@@ -83,7 +83,7 @@ footer{
     margin-top: 1.5em;
     img{
         width: 40%;
-        height: 10em;
+        height: 9em;
         object-fit: cover;
         object-position: 35% 0%;
         border-radius: 60%;
@@ -153,16 +153,7 @@ footer{
     margin-bottom: 3em;
     gap: .7em;
     height: fit-content;
-    // .aboutimg{
-    //     img{
-    //         display: none;
-    //         width: 60%;
-    //         margin-top: 1.4em;
-    //         display: block;
-    //         margin: 0 auto;
-    //         border-radius: 50%;
-    //     }
-    // }
+    
     .side{
         h1{
             text-align: center;
@@ -265,17 +256,17 @@ footer{
     }
 }
 
-@media only screen and (min-device-width : 600px) and (max-device-width : 768px) {
+@media only screen and (min-device-width : 720px){
 
     .home{
         margin-top: .3em;
-        gap: 2.5em;
+        gap: 10%;
         h1{
             font-size: 2.5em;
         }
         .nav{
-            margin-top: .6em;
-            font-size: 1.1em;
+            margin-top: .1em;
+            font-size: 1.4em;
         }
         .socials{
             margin-top: 2.5em;
@@ -295,8 +286,9 @@ footer{
 
     .whatido{
         .whatido-cards{
+            gap: 1em;
             .card{
-                width: 35%;
+                width: 37%;
                 img{
                     margin-top: 1em;
                     width: 5em;
@@ -312,7 +304,7 @@ footer{
                     margin: -.8em auto 2em;
                     font-family: 'Poppins', Arial, sans-serif;
                     font-weight: 500;
-                    font-size: 1em;
+                    font-size: 1.2em;
                     line-height: 1.5em;
                     text-align: justify;
                     width: 80%;
@@ -322,23 +314,23 @@ footer{
     }
 
     .about{
-        // gap: 1em;
-        // .aboutimg{
-        //     width: 50%;
-        //     img{
-        //         display: none;
-        //         width: 40vw;
-        //         height: 45vh;
-        //         margin-top: 1.4em;
-        //         border-radius: 50%;
-        //     }
-        // }
         .side{
             width: 80%;
             margin: auto;
             p{
                 line-height: 2em;
+                font-size: 1.2em;
                 text-align: justify;
+            }
+            .stack{
+                img{
+                    width: 2.2em;
+                }
+            }
+            button{
+                background-color: $yellow;
+                width: 11em;
+                font-size: 1em;
             }
         }
     }
@@ -352,22 +344,24 @@ footer{
             }
         }
     }
+    footer{
+        font-size: .9em;
+    }
 }
 
-@media only screen and (min-device-width : 770px) and (max-device-width : 960px) {
+@media only screen and (min-device-width : 1024px) {
     .home{
-        gap: 4em;
         h1{
-            font-size: 2.5em;
+            font-size: 4em;
         }
         .nav{
             margin-top: .6em;
-            font-size: 1.1em;
+            font-size: 1.8em;
         }
         .socials{
-            margin-top: 2.5em;
+            margin-top: 4em;
             img{
-                width:1.6em;
+                width: 2.6em;
             }
 
         }
@@ -376,7 +370,13 @@ footer{
     .introduction{
         img{
             width: 30%;
-            height: 14em;
+            height: 18em;
+        }
+        h1{
+            font-size: 3.3em;
+        }
+        p{
+            font-size: 1em;
         }
     }
 
@@ -384,31 +384,42 @@ footer{
         .whatido-cards{
             .card{
                 width: 38vw;
+                height: 25vh;
+                img{
+                    margin-top: 2em;
+                    width: 6em;
+                }
                 h1{
-                    font-size: 1.9em;
+                    font-size: 2.5em;
                 }
                 p{
-                    font-size: 1em;
+                    font-size: 1.4em;
+                    line-height: 1.5em;
+                    text-align: justify;
+                    width: 80%;
                 }
             }
         }
     }
 
     .about{
-        img{
-            width: 45%;
-        }
         .side{
-            margin-left: 1em;
+            width: 85%;
             p{
                 line-height: 2em;
+                font-size: 1.6em;
                 text-align: justify;
             }
+            .stack{
+                img{
+                    width: 3em;
+                }
+            }
             button{
-                font-size: 1em;
+                font-size: 1.5em;
                 font-weight: bold;
                 height: 3.5em;
-                width: 9em;
+                width: 22vw;
             }
         }
     }
@@ -416,8 +427,12 @@ footer{
     .contact{
         form{
             .form-table{
+                input{
+                    width: 81vw;
+                    height: 3.5em;
+                }
                 button{
-                    font-size: 1.3em;
+                    font-size: 1.6em;
                     height: 3em;
                 }
             }
