@@ -173,7 +173,7 @@ footer a {
   .about .side h1::before {
     content: " ";
     position: absolute;
-    width: 16%;
+    width: 10vw;
     bottom: -2px;
     border-bottom: 2px solid #FEDA4E;
   }
@@ -374,6 +374,13 @@ footer a {
   }
   .about .side {
     width: 85%;
+  }
+  .about .side h1::before {
+    content: " ";
+    position: absolute;
+    width: 2em;
+    bottom: -2px;
+    border-bottom: 2px solid #FEDA4E;
   }
   .about .side p {
     line-height: 2em;

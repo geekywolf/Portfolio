@@ -166,7 +166,7 @@ footer{
             h1::before{
                 content: " ";
                 position: absolute;
-                width: 16%;
+                width: 10vw;
                 bottom: -2px;
                 border-bottom: 2px solid $yellow;
             }
@@ -405,6 +405,13 @@ footer{
     .about{
         .side{
             width: 85%;
+            h1::before{
+                content: " ";
+                position: absolute;
+                width: 2em;
+                bottom: -2px;
+                border-bottom: 2px solid $yellow;
+            }
             p{
                 line-height: 2em;
                 font-size: 1.6em;
